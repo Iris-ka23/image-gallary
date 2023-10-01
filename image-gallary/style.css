@@ -53,8 +53,6 @@
         font-size: 18px;
         border: 0;
         outline: 0;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
         cursor: pointer;
     }
     ::placeholder {
@@ -103,4 +101,7 @@
      .rs_school {
        width: 50px;
        height: 50px;
+     }
+     #clear_search {
+        cursor: pointer;
      }

@@ -4,6 +4,7 @@ const searchForm = document.getElementById ('search_form');
 const searchBox = document.getElementById ('search_box');
 const searchResult = document.getElementById ('search_result');
 const showBtn = document.getElementById ('more_btn');
+const clearSearch = document.getElementById("clear_search");
 let key = "";
 let page = 1;
 
@@ -41,3 +42,6 @@ showBtn.addEventListener('click', ()=>{
     page++;
     searchImage()
 })
+clearSearch.addEventListener("click", () => {
+    searchBox.value = ""; 
+  });
